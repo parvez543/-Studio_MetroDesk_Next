@@ -1,0 +1,122 @@
+/* Grid Container */
+@media only screen and (min-width: 1280px) {
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      column-gap: 16px;
+    }
+    .imagContentContainer{
+      margin-bottom: 16px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      column-gap: 16px;
+    }
+    .imagContentContainer{
+      margin-bottom: 16px;
+    }
+  }
+  @media screen and (min-width: 1512px) {
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      column-gap: 16px;
+    }
+    .imagContentContainer{
+      margin-bottom: 16px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 1728px) {
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      column-gap: 16px;
+    }
+    .imagContentContainer{
+      margin-bottom: 16px;
+    }
+  }
+  @media screen and (min-width: 1920px) {
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      column-gap: 16px;
+    }
+    .imagContentContainer{
+      margin-bottom: 16px !important;
+    }
+  }
+  @media screen and (min-width: 2560px) {
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 21.33 px;
+    }
+    .imagContentContainer{
+      margin-bottom: 21.33px;
+    }
+    
+  }
+  @media screen and (min-width: 3840px) {
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 32px;
+    }
+    .imagContentContainer{
+      margin-bottom: 32px;
+    }
+  }
+  
+  /* Img Container */
+  
+  @media only screen and (min-width: 1280px) {
+    .homeImageContainer img{
+      width: 268px;
+      height: 268px;
+      /* object-position:cover */
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .homeImageContainer img{
+      width: 268px;
+      height: 268px;
+    }
+  }
+  @media screen and (min-width: 1512px) {
+    .homeImageContainer img{
+      width: 268px;
+      height: 268px;
+    }
+  }
+  @media screen and (min-width: 1728px) {
+    .homeImageContainer img{
+      width: 268px;
+      height: 268px;
+    }
+  }
+  @media screen and (min-width: 1920px) {
+    .homeImageContainer img{
+      width: 268px;
+      height: 268px;
+      
+    }
+  }
+  @media screen and (min-width: 2560px) {
+    .homeImageContainer img{
+      width: 357.32px;
+      height: 357.32px;
+    }
+  }
+  @media screen and (min-width: 2560px) {
+    .homeImageContainer img{
+      width: 536px;
+      /* height: 536px; */
+    }
+  }
+  
